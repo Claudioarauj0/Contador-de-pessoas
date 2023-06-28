@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
               isfull ? 'LOTADO' : 'QUANTIDADE',
               style:  TextStyle(
                   fontSize: 35,
-                  color: isfull ? Colors.red : Colors.white,
+                  color: isfull ? Colors.green : Colors.white,
                   fontWeight: FontWeight.w700),
             ),
             const SizedBox(height: 20),
